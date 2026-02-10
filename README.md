@@ -154,7 +154,6 @@ Relevant roles:
 
 ## 📬 Contact
 * **Haranath Mondal**
-* 
 Data Analyst | Aspiring Data Scientist | NLP & ML Research Enthusiast
 
 - **Final leaderboard:** https://drive.google.com/file/d/1Fh7Giu6kbMXnlRsleGgGsxRKiIYmrbgN/view
