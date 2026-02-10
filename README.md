@@ -68,16 +68,60 @@ The LoRA-based approach significantly lowers computational cost compared to full
 
 ---
 
-## 📊 Results & Findings
+## 🏆 Leaderboard Achievements & Results
 
-* Achieved **competitive BLEU scores** across multiple low-resource Indic language pairs
-* Strong improvements over baseline systems in extremely low-data scenarios
-* Demonstrated that **parameter-efficient tuning** is effective for multilingual MT
+Based on the **official WMT 2025 Indic MT shared task leaderboard**, JU-NLP achieved **strong and competitive rankings** across multiple low-resource Indic language pairs among **17 participating teams worldwide**. fileciteturn2file0
 
-This validates LoRA as a practical solution for **resource-constrained translation systems**.
+### 🔹 Key Achievements (JU-NLP)
+
+* ✅ **Participated in WMT 2025 Low-Resource Indic MT Shared Task**
+* 🌍 Competed against **17 international teams** from academia and industry
+* 🏅 Achieved **Top-3 ranking** in multiple language directions
+
+### 🔸 Notable Language-wise Results
+
+**Manipuri → English (mni-en)**
+
+* 🥇 **Rank 1** out of all teams
+* **BLEU:** 8.10 (Highest on leaderboard)
+
+**English → Manipuri (en-mni)**
+
+* 🥈 **Rank 2** overall
+* **BLEU:** 4.12
+
+**Mizo → English (lus-en)**
+
+* 🥇 **Rank 1** overall
+* **BLEU:** 12.30
+
+**English → Mizo (en-lus)**
+
+* 🥇 **Rank 1** overall
+* **BLEU:** 15.83
+
+**English → Bodo (en-bodo)**
+
+* 🥉 **Rank 3** overall
+* **BLEU:** 19.71
+
+These results demonstrate the effectiveness of our **LoRA-based multilingual adaptation strategy**, particularly for **extremely low-resource Indic languages**.
 
 ---
 
+## 📁 Project Structure
+
+```
+├── data/               # Parallel corpora and processed datasets
+├── preprocessing/      # Language-specific preprocessing scripts
+├── src/                # Training and evaluation code
+├── models/             # Fine-tuned MT checkpoints
+├── results/            # Translation outputs and scores
+├── requirements.txt    # Dependencies
+└── README.md           # Project documentation
+```
+
+---
 
 ## 📌 Key Contributions
 
