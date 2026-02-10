@@ -109,20 +109,6 @@ These results demonstrate the effectiveness of our **LoRA-based multilingual ada
 
 ---
 
-## 📁 Project Structure
-
-```
-├── data/               # Parallel corpora and processed datasets
-├── preprocessing/      # Language-specific preprocessing scripts
-├── src/                # Training and evaluation code
-├── models/             # Fine-tuned MT checkpoints
-├── results/            # Translation outputs and scores
-├── requirements.txt    # Dependencies
-└── README.md           # Project documentation
-```
-
----
-
 ## 📌 Key Contributions
 
 * Applied **LoRA-based adaptation** to Indic MT at scale
@@ -168,6 +154,7 @@ Relevant roles:
 
 ## 📬 Contact
 * **Haranath Mondal**
+* 
 Data Analyst | Aspiring Data Scientist | NLP & ML Research Enthusiast
 
 - **Final leaderboard:** https://drive.google.com/file/d/1Fh7Giu6kbMXnlRsleGgGsxRKiIYmrbgN/view
